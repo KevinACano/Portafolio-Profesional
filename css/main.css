@@ -11,21 +11,23 @@ h1 {
 
 body {
     font-family: "Michroma", sans-serif;
+    background-color:#49474f;
 }
 
 header {
-    background-color: #06113dcb;
+    background-color: #0a1543cb;
     text-align: center;
-    color: #ffff;
+    color: #ffffff;
     border-bottom: solid 5px #000000;
     /*Este es el comentario */
 }
 
 nav {
-    background-color: #ba1b1b;
+    background-color: #09082b;
     padding: 30px 20px;
-    border-bottom: 5px solid fuchsia;
+    border-bottom: 5px solid rgb(60, 19, 60);
     font-size: 15px;
+    text-align: center;
 }
 
 nav a {
@@ -35,33 +37,46 @@ nav a {
     padding: 10px;
 }
 nav a:hover{
-    color:rgb(67, 125, 176);
+    color:rgb(54, 189, 26);
 
 }
 #bienvenida {
     padding: 30px;
     text-align: center;
+    color: #ffffff;
 }
 #proyectos {
-    background-color: #2adbb4;
+    background-color: #16083f;
     padding: 30px 20px;
-
+    
 }
 
-.lista-proyectos {
+#proyectos {
+    color: #ffffff; /* Letras blancas para la sección de proyectos */
+}
+
+#proyectos .lista{
     display: flex;
+}
+
+#proyectos .lista-proyectos {
     padding-top: 20px;
 }
 
-.proyecto {
-    width: 30%;
-    border: solid 2px #8f0aa3;
-    padding: 10px;
+#proyectos .proyecto {
+    width: 80%;
+    border: solid 2px #2a4a90;
+    padding: 20px;
     border-radius: 10px;
 }
 
-.proyecto h3 {
-    color: #a34a0a;
+.proyecto h3{
+    text-align: center;
+}
+
+#proyectos h2 {
+    color: #e37d34;
+    text-align: center;
 }
 
 #competencias {
@@ -78,7 +93,7 @@ nav a:hover{
 }
 
 #competencias ul li {
-    background-color: #0300c3;
+    background-color: #1a17da;
     color: #ffffff;
     padding: 10px 20px;
     border-radius: 20px;
@@ -86,7 +101,13 @@ nav a:hover{
 
 #contacto {
     padding: 30px;
-    border-top: 2px dashed #040bd7;
+    color: #ffffff;    
+}
+
+#contacto img {
+    width: 40px; 
+    height: 40px;
+    margin-right: 20px; 
 }
 
 .campos {
@@ -109,7 +130,7 @@ nav a:hover{
 .campos button {
     padding: 20px;
     border-radius: 15px;
-    background-color: #dd11ef;
+    background-color: #510c57;
     color: #ffffff;
     width: 20%;
     border: none;
@@ -118,9 +139,9 @@ nav a:hover{
 
 footer {
     padding: 30px 30px;
-    background-color: #a34a0a;
+    background-color: #2e1857;
     color: #ffffff;
     font-size: 14px;
-    border-top: solid 5px #ff9a9a;
+    border-top: solid 5px #000000;
     text-align: center;
 }
