@@ -20,7 +20,7 @@ export const translations = {
       musicBadge: "Fan del Rock en Español",
       titlePre: "Estudiante de Ingeniería en TI &",
       titleHighlight: "Desarrollo de Software",
-      titlePost: "con Código Limpio.",
+
       description: "Hola, soy Kevin Ariel Cano Chan, estudiante de Ingeniería en Tecnologías de la Información e Innovación Digital en Cancún. Me especializo en desarrollo web frontend y full-stack con React, Next.js, TypeScript y Node.js, además de bases de datos PostgreSQL, entornos Linux y soporte de infraestructura tecnológica corporativa.",
       btnProjects: "Explorar Proyectos",
       btnContact: "Contáctame Ahora",
@@ -146,7 +146,7 @@ export const translations = {
     hero: {
       location: "Cancun, Quintana Roo, Mexico",
       awardBadge: "3rd Place Come Datos 2025 Hackathon",
-      studentBadge: "IT Engineering Student · UT Cancun",
+      studentBadge: "IT Engineering Student ",
       musicBadge: "Rock en Español Enthusiast",
       titlePre: "IT Engineering Student &",
       titleHighlight: "Software Developer",
